@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+/* HEADER */
+
+
+.logo {
+    width: 10rem;
+    margin-left: 100px;
+}
+
+.fuentes {
+    font-size: 1.5rem;
+    padding-left: 4rem;
+    text-transform: uppercase;
+}
+
+.fuentes li a {
+    margin-left: 3rem;
+}
+
+.fuentes li a:hover {
+    background-color: grey;
+    color: white;
+    border-radius: 10px;
+}
+
+
+
+header {
+    border-bottom: 4px solid rgb(230, 7, 7);
+    background-color: black;
+}
+
+.posicion {
+    position: sticky;
+    top: 0;
+}
+
+
+
+/*  INDEX */
+.canchaBasquet {
+    background-image: url("../img/bata.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.9;
+    margin-top: -50px;
+    margin-bottom: -25px;
+}
+
+.basquet {
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+    color: yellow;
+    padding: 10px;
+}
+
+.zapasIndex {
+    justify-content: center;
+    margin-left: 800px;
+    display: flex;
+
+}
+
+
+
+.zapasIndex {
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    margin-top: 100px;
+}
+
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .basquet {
+        font-size: 15px;
+    }
+
+    .zapasIndex {
+        max-width: 80%;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .basquet {
+        font-size: 30px;
+    }
+
+    .zapasIndex {
+        max-width: 90%;
+    }
+    .containerRojo {
+        max-width: 70%;
+    }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1920px) {
+    .basquet {
+        font-size: 50px;
+    }
+
+    .zapasIndex {
+        max-width: 100%;
+    }
+
+    .containerRojo {
+        max-width: 50%;
+    }
+}
+
+
+
+.carousel-inner img {
+    max-height: 450px;
+    max-width: 450px;
+    margin: 0 auto;
+    background-color: rgb(172, 164, 164, 0.5);
+    border-radius: 50px;
+    border: black solid;
+    
+    
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    
+    color: #ff0000;
+    font-size: 30px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    background-color: black;
+    width: 40px;
+}
+
+
+
+
+
+/* SECCION PRODUCTOS */
+
+
+.tituloZapatillas {
+    background-color: rgb(168, 164, 164);
+    color: black;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
+}
+
+.tituloZapatillas h2 {
+    font-size: 3rem;
+}
+
+.colorBoton {
+    background-color: red;
+    color: white
+}
+
+.card {
+    border: none;
+}
+
+
+
+/* SECCION FOOTER */
+
+
+.futer:hover {
+    background-color: grey;
+    border-radius: 50px;
+
+}
+
+
+
+
+/* SECCION CONTACTO */
+
+
+.contactenos {
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 50px;
+    display: flex;
+}
+
+.inputGrande {
+
+    font-size: 18px; 
+  padding: 10px; 
+  width: 100%; 
+  box-sizing: border-box;
+  height: 100px;
+}
+
+
+
+
+/* SECCION CUENTA */
+
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.fotoBack {
+    background-image: url("../img/jordan-volando.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.9;
+    margin-top: -50px;
+    margin-bottom: -25px;
+}
+
+.rojoBoton {
+    background-color: red;
+    color: white;
+    border-color: black;
+}
+
+.rojoBoton:hover {
+    background-color: grey;
+    color: white;
+    border-color: black;
+}
+
+.containerRojo {
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+
+.startSesion {
+
+    margin-top: 200rem;
+    padding: 50px;
+}
+
+
+.segundoForm {
+    margin-top: 150px;
+}
+
+
+/* SECCION CONTACTO */
+
+.fotoAtras {
+    background-image: url("../img/kobe-jumpshot.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.9;
+    margin-top: -50px;
+    margin-bottom: -25px;
+}
+
+.distancia {
+
+    margin-top: 100px;
+}
+
+
+
+
+/* SECCION SOBRE NOSOTROS */
+
+
+.fotoLebron {
+    background-image: url("../img/lebron-eluno.jpeg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.8;
+    margin-top: -50px;
+    margin-bottom: -25px;
+}
+
+
+.pelota {
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 10px;
+    display: flex;
+    color: yellow;
+    padding: 10px;
+}
+
+.pelotaGrande {
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 10px;
+    display: flex;
+    color: yellow;
+    padding: 10px;
+    text-decoration:underline;
+}
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .pelota {
+        font-size: 15px;
+    }
+    .pelotaGrande {
+        font-size: 25px;
+    }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .pelota {
+        font-size: 30px;
+    }
+    .pelotaGrande {
+        font-size: 35px;
+    }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1920px) {
+    .pelota {
+        font-size: 40px;
+    }
+    .pelotaGrande {
+        font-size: 60px;
+    }
+}
+
+
+
+
+
+@media (min-width: 320px) and (max-width: 600px) {
+    .cartaTamaño {
+        width: 100%; /* Ajustar el ancho al 100% para ocupar toda la pantalla */
+      }
+}
+
+
+@media (min-width: 601px) and (max-width: 1024px) {
+    .cartaTamaño {
+        width: 50%; /* Ajustar el ancho al 50% para mostrar dos cards por fila */
+      }
+}
+
+
+@media (min-width: 1025px) and (max-width: 1920px) {
+    cartaTamaño {
+        width: 25%; /* Ajustar el ancho al 25% para mostrar cuatro cards por fila */
+      }
+}
+
+
+
