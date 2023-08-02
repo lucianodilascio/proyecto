@@ -161,11 +161,12 @@ background-color: white;
 
 .tituloZapatillas {
     background-color: rgb(168, 164, 164);
-    color: black;
+    color: rgb(202, 100, 16);
     text-align: center;
     text-transform: uppercase;
     font-weight: bold;
     padding: 1rem;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 5px 1px 0 black;   
 }
 
 .tituloZapatillas h2 {
@@ -209,14 +210,47 @@ background-color: white;
 
 /* SECCION CONTACTO */
 
-
-.contactenos {
+.contactame {
     text-align: center;
     justify-content: center;
     margin-top: 50px;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 45px;
     display: flex;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    color: rgb(202, 100, 16);
+}
+
+.letraFuerte {
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    color: rgb(202, 100, 16);
+}
+
+.letraFuerte1 {
+    text-align: center;
+    justify-content: center;
+    margin-top: 1px;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    color: rgb(202, 100, 16);
+}
+
+.letraFuerte2 {
+    text-align: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    color: rgb(202, 100, 16);
 }
 
 .inputGrande {
@@ -227,7 +261,6 @@ background-color: white;
   box-sizing: border-box;
   height: 100px;
 }
-
 
 
 
@@ -275,12 +308,23 @@ body {
 .startSesion {
 
     margin-top: 200rem;
-    padding: 50px;
+    padding: 10px;
 }
 
+.startSesion1 {
+
+    margin-top: 200rem;
+    padding: 10px;
+    
+}
 
 .segundoForm {
     margin-top: 150px;
+}
+
+.colorNaranja {
+    color: rgb(202, 100, 16);
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
 
@@ -339,10 +383,14 @@ body {
     color: yellow;
     padding: 10px;
     text-decoration:underline;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 5px 1px 0 black;
+    color: rgb(202, 100, 16);
+    text-transform: uppercase;
 }
 
 .subrayado{
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 5px 1px 0 black;
+    color: rgb(202, 100, 16);
 }
 
 @media (min-width: 320px) and (max-width: 600px) {
@@ -372,6 +420,10 @@ body {
     .pelotaGrande {
         font-size: 60px;
     }
+}
+
+.tamañoTexto {
+    font-size: 30px;
 }
 
 
