@@ -1,0 +1,32 @@
+
+header {
+    border-bottom: 4px solid rgb(230, 7, 7);
+    background-color: black;
+  
+    .logo {
+      width: 10rem;
+      margin-left: 100px;
+    }
+  
+    .fuentes {
+      font-size: 1.5rem;
+      padding-left: 4rem;
+      text-transform: uppercase;
+  
+      li {
+        a {
+          margin-left: 3rem;
+  
+          &:hover {
+            background-color: grey;
+            color: white;
+            border-radius: 10px;
+          }
+        }
+      }
+    }
+  
+    .navbar-toggler {
+      background-color: white;
+    }
+  }

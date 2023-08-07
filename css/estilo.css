@@ -1,436 +1,331 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
-
-
-body {
-    font-family: 'Oswald', sans-serif;
-}
-
-/* HEADER */
-
-
-.logo {
-    width: 10rem;
-    margin-left: 100px;
-}
-
-.fuentes {
-    font-size: 1.5rem;
-    padding-left: 4rem;
-    text-transform: uppercase;
-}
-
-.fuentes li a {
-    margin-left: 3rem;
-}
-
-.fuentes li a:hover {
-    background-color: grey;
-    color: white;
-    border-radius: 10px;
-}
-
-
-
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap");
 header {
-    border-bottom: 4px solid rgb(230, 7, 7);
-    background-color: black;
+  border-bottom: 4px solid rgb(230, 7, 7);
+  background-color: black;
+}
+header .logo {
+  width: 10rem;
+  margin-left: 100px;
+}
+header .fuentes {
+  font-size: 1.5rem;
+  padding-left: 4rem;
+  text-transform: uppercase;
+}
+header .fuentes li a {
+  margin-left: 3rem;
+}
+header .fuentes li a:hover {
+  background-color: grey;
+  color: white;
+  border-radius: 10px;
+}
+header .navbar-toggler {
+  background-color: white;
 }
 
-.posicion {
-    position: sticky;
-    top: 0;
+footer .futer:hover {
+  background-color: grey;
+  border-radius: 50px;
 }
-
-.navbar-toggler {
-background-color: white;
+footer .colorInstagram {
+  color: #dd2a7b;
 }
-
-
-/*  INDEX */
-.canchaBasquet {
-    background-image: url("../img/bata.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-    opacity: 0.9;
-    margin-top: -50px;
-    margin-bottom: -25px;
+footer .colorYoutube {
+  color: red;
 }
-
-.basquet {
-    text-align: center;
-    justify-content: center;
-    margin-top: 50px;
-    font-weight: bold;
-    font-size: 50px;
-    display: flex;
-    color: yellow;
-    padding: 10px;
+footer .colorFacebook {
+  color: blue;
 }
-
-.zapasIndex {
-    justify-content: center;
-    margin-left: 800px;
-    display: flex;
-
+footer .ColorDerechos {
+  color: white;
 }
-
-
-
-.zapasIndex {
-    display: block;
-    margin: 0 auto;
-    max-width: 100%;
-    margin-top: 100px;
-}
-
-
-@media (min-width: 320px) and (max-width: 600px) {
-    .basquet {
-        font-size: 15px;
-    }
-
-    .zapasIndex {
-        max-width: 80%;
-    }
-}
-
-
-@media (min-width: 601px) and (max-width: 1024px) {
-    .basquet {
-        font-size: 30px;
-    }
-
-    .zapasIndex {
-        max-width: 90%;
-    }
-    .containerRojo {
-        max-width: 70%;
-    }
-}
-
-
-@media (min-width: 1025px) and (max-width: 1920px) {
-    .basquet {
-        font-size: 50px;
-    }
-
-    .zapasIndex {
-        max-width: 100%;
-    }
-
-    .containerRojo {
-        max-width: 50%;
-    }
-}
-
-
-
-.carousel-inner img {
-    max-height: 450px;
-    max-width: 450px;
-    margin: 0 auto;
-    background-color: rgb(172, 164, 164, 0.5);
-    border-radius: 50px;
-    border: black solid;
-    
-    
-
-}
-
-.carousel-control-prev-icon,
-.carousel-control-next-icon {
-    
-    color: #ff0000;
-    font-size: 30px;
-}
-
-.carousel-control-prev,
-.carousel-control-next {
-    background-color: black;
-    width: 40px;
-}
-
-
-
-
-
-/* SECCION PRODUCTOS */
-
-
-.tituloZapatillas {
-    background-color: rgb(168, 164, 164);
-    color: rgb(202, 100, 16);
-    text-align: center;
-    text-transform: uppercase;
-    font-weight: bold;
-    padding: 1rem;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 5px 1px 0 black;   
-}
-
-.tituloZapatillas h2 {
-    font-size: 3rem;
-}
-
-.colorBoton {
-    background-color: red;
-    color: white
-}
-
-.card {
-    border: none;
-}
-
-
-
-/* SECCION FOOTER */
-
-
-.futer:hover {
-    background-color: grey;
-    border-radius: 50px;
-}
-
-.colorInstagram {
-    color: #DD2A7B;
-}
-.colorYoutube {
-    color: red;
-}
-.colorFacebook {
-    color: blue;
-}
-.ColorDerechos {
-    color: white;
-}
-
-
-
 
 /* SECCION CONTACTO */
-
 .contactame {
-    text-align: center;
-    justify-content: center;
-    margin-top: 50px;
-    font-weight: bold;
-    font-size: 45px;
-    display: flex;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-    color: rgb(202, 100, 16);
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 45px;
+  display: flex;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  color: rgb(202, 100, 16);
 }
 
 .letraFuerte {
-    text-align: center;
-    justify-content: center;
-    margin-top: 50px;
-    font-weight: bold;
-    font-size: 30px;
-    display: flex;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-    color: rgb(202, 100, 16);
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  color: rgb(202, 100, 16);
 }
 
 .letraFuerte1 {
-    text-align: center;
-    justify-content: center;
-    margin-top: 1px;
-    font-weight: bold;
-    font-size: 20px;
-    display: flex;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-    color: rgb(202, 100, 16);
+  text-align: center;
+  justify-content: center;
+  margin-top: 1px;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  color: rgb(202, 100, 16);
 }
 
 .letraFuerte2 {
-    text-align: center;
-    justify-content: center;
-    font-weight: bold;
-    font-size: 30px;
-    display: flex;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-    color: rgb(202, 100, 16);
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  color: rgb(202, 100, 16);
 }
 
 .inputGrande {
-
-    font-size: 18px; 
-  padding: 10px; 
-  width: 100%; 
+  font-size: 18px;
+  padding: 10px;
+  width: 100%;
   box-sizing: border-box;
   height: 100px;
 }
 
-
-
-/* SECCION CUENTA */
-
-
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-.fotoBack {
-    background-image: url("../img/jordan-volando.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-    opacity: 0.9;
-    margin-top: -50px;
-    margin-bottom: -25px;
-}
-
-.rojoBoton {
-    background-color: red;
-    color: white;
-    border-color: black;
-}
-
-.rojoBoton:hover {
-    background-color: grey;
-    color: white;
-    border-color: black;
-}
-
-.containerRojo {
-    width: 100%;
-    justify-content: center;
-    text-align: center;
-}
-
-
-
-
-.startSesion {
-
-    margin-top: 200rem;
-    padding: 10px;
-}
-
-.startSesion1 {
-
-    margin-top: 200rem;
-    padding: 10px;
-    
-}
-
-.segundoForm {
-    margin-top: 150px;
-}
-
-.colorNaranja {
-    color: rgb(202, 100, 16);
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-}
-
-
-/* SECCION CONTACTO */
-
 .fotoAtras {
-    background-image: url("../img/kobe-jumpshot.jpg");
-    background-size: cover;
-    background-position: center;
-    width: 100%;
-    height: 100vh;
-    opacity: 0.9;
-    margin-top: -50px;
-    margin-bottom: -25px;
+  background-image: url("../img/kobe-jumpshot.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.9;
+  margin-top: -50px;
+  margin-bottom: -25px;
 }
 
 .distancia {
-
-    margin-top: 100px;
+  margin-top: 100px;
 }
 
+/* SECCION CUENTA */
+.fotoBack {
+  background-image: url("../img/jordan-volando.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.9;
+  margin-top: -50px;
+  margin-bottom: -25px;
+}
 
+.rojoBoton {
+  background-color: red;
+  color: white;
+  border-color: black;
+}
+.rojoBoton:hover {
+  background-color: grey;
+  color: white;
+  border-color: black;
+}
 
+.containerRojo {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  .containerRojo {
+    max-width: 70%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1920px) {
+  .containerRojo {
+    max-width: 50%;
+  }
+}
+
+.startSesion {
+  margin-top: 200rem;
+  padding: 10px;
+}
+
+.startSesion1 {
+  margin-top: 200rem;
+  padding: 10px;
+}
+
+.segundoForm {
+  margin-top: 150px;
+}
+
+.colorNaranja {
+  color: rgb(202, 100, 16);
+}
+
+body {
+  font-family: "Oswald", sans-serif;
+}
+
+/* INDEX */
+.canchaBasquet {
+  background-image: url("../img/bata.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.9;
+  margin-top: -50px;
+  margin-bottom: -25px;
+}
+.canchaBasquet .basquet {
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 50px;
+  display: flex;
+  color: rgb(202, 100, 16);
+  padding: 10px;
+}
+.canchaBasquet .zapasIndex {
+  justify-content: center;
+  margin-left: 800px;
+  display: flex;
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  .canchaBasquet .zapasIndex {
+    max-width: 80%;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  .canchaBasquet .zapasIndex {
+    max-width: 90%;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1920px) {
+  .canchaBasquet .zapasIndex {
+    max-width: 100%;
+  }
+}
+.canchaBasquet .carousel-inner img {
+  max-height: 450px;
+  max-width: 450px;
+  margin: 0 auto;
+  background-color: rgba(172, 164, 164, 0.5);
+  border-radius: 50px;
+  border: black solid;
+}
+.canchaBasquet .carousel-control-prev-icon,
+.canchaBasquet .carousel-control-next-icon {
+  color: #ff0000;
+  font-size: 30px;
+}
+.canchaBasquet .carousel-control-prev,
+.canchaBasquet .carousel-control-next {
+  background-color: black;
+  width: 40px;
+}
+
+/* SECCION PRODUCTOS */
+.tituloZapatillas {
+  background-color: rgb(168, 164, 164);
+  color: rgb(202, 100, 16);
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 1rem;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 5px 1px 0 black;
+}
+.tituloZapatillas h2 {
+  font-size: 3rem;
+}
+
+.colorBoton {
+  background-color: red;
+  color: rgb(253, 253, 252);
+}
+
+.card {
+  border: none;
+}
 
 /* SECCION SOBRE NOSOTROS */
-
-
 .fotoLebron {
-    background-image: url("../img/lebron-eluno.jpeg");
-    background-size: cover;
-    background-position: center;
-    opacity: 0.8;
-    margin-top: -50px;
-    margin-bottom: -25px;
+  background-image: url("../img/lebron-eluno.jpeg");
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8;
+  margin-top: -50px;
+  margin-bottom: -25px;
 }
 
-
 .pelota {
-    text-align: center;
-    justify-content: center;
-    margin-top: 50px;
-    font-weight: bold;
-    font-size: 10px;
-    display: flex;
-    color: yellow;
-    padding: 10px;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 10px;
+  display: flex;
+  color: yellow;
+  padding: 10px;
+}
+@media (min-width: 320px) and (max-width: 600px) {
+  .pelota {
+    font-size: 15px;
+  }
+}
+@media (min-width: 601px) and (max-width: 1024px) {
+  .pelota {
+    font-size: 30px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1920px) {
+  .pelota {
+    font-size: 40px;
+  }
 }
 
 .pelotaGrande {
-    text-align: center;
-    justify-content: center;
-    margin-top: 50px;
-    font-weight: bold;
-    font-size: 10px;
-    display: flex;
-    color: yellow;
-    padding: 10px;
-    text-decoration:underline;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 5px 1px 0 black;
-    color: rgb(202, 100, 16);
-    text-transform: uppercase;
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 10px;
+  display: flex;
+  color: yellow;
+  padding: 10px;
+  text-decoration: underline;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 5px 1px 0 black;
+  color: rgb(202, 100, 16);
+  text-transform: uppercase;
 }
-
-.subrayado{
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 5px 1px 0 black;
-    color: rgb(202, 100, 16);
-}
-
 @media (min-width: 320px) and (max-width: 600px) {
-    .pelota {
-        font-size: 15px;
-    }
-    .pelotaGrande {
-        font-size: 25px;
-    }
+  .pelotaGrande {
+    font-size: 25px;
+  }
 }
-
-
 @media (min-width: 601px) and (max-width: 1024px) {
-    .pelota {
-        font-size: 30px;
-    }
-    .pelotaGrande {
-        font-size: 35px;
-    }
+  .pelotaGrande {
+    font-size: 35px;
+  }
+}
+@media (min-width: 1025px) and (max-width: 1920px) {
+  .pelotaGrande {
+    font-size: 60px;
+  }
 }
 
-
-@media (min-width: 1025px) and (max-width: 1920px) {
-    .pelota {
-        font-size: 40px;
-    }
-    .pelotaGrande {
-        font-size: 60px;
-    }
+.subrayado {
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 5px 1px 0 black;
+  color: rgb(202, 100, 16);
 }
 
 .tamañoTexto {
-    font-size: 30px;
+  font-size: 30px;
 }
 
-
-
-
-
-
-
-
-
+/*# sourceMappingURL=estilo.css.map */

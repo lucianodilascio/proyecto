@@ -1,0 +1,173 @@
+@import "variables";
+@import "header";
+@import "footer";
+@import "formulario";
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
+
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* INDEX */
+
+.canchaBasquet {
+    background-image: url("../img/bata.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.9;
+    margin-top: -50px;
+    margin-bottom: -25px;
+
+    .basquet {
+        text-align: center;
+        justify-content: center;
+        margin-top: 50px;
+        font-weight: bold;
+        font-size: 50px;
+        display: flex;
+        color: rgb(202, 100, 16);
+        padding: 10px;
+    }
+
+    .zapasIndex {
+        justify-content: center;
+        margin-left: 800px;
+        display: flex;
+
+        @media (min-width: 320px) and (max-width: 600px) {
+            max-width: 80%;
+        }
+
+        @media (min-width: 601px) and (max-width: 1024px) {
+            max-width: 90%;
+        }
+
+        @media (min-width: 1025px) and (max-width: 1920px) {
+            max-width: 100%;
+        }
+    }
+
+    .carousel-inner {
+        img {
+            max-height: 450px;
+            max-width: 450px;
+            margin: 0 auto;
+            background-color: rgba(172, 164, 164, 0.5);
+            border-radius: 50px;
+            border: black solid;
+        }
+    }
+
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        color: #ff0000;
+        font-size: 30px;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        background-color: black;
+        width: 40px;
+    }
+}
+
+/* SECCION PRODUCTOS */
+
+.tituloZapatillas {
+    background-color: rgb(168, 164, 164);
+    color: rgb(202, 100, 16);
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    padding: 1rem;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 5px 1px 0 black;
+
+    h2 {
+        font-size: 3rem;
+    }
+}
+
+.colorBoton {
+    background-color: red;
+    color: $colorboton;
+}
+
+.card {
+    border: none;
+}
+
+
+
+
+/* SECCION SOBRE NOSOTROS */
+
+.fotoLebron {
+    background-image: url("../img/lebron-eluno.jpeg");
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+    margin-top: -50px;
+    margin-bottom: -25px;
+}
+
+.pelota {
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 10px;
+    display: flex;
+    color: yellow;
+    padding: 10px;
+
+    @media (min-width: 320px) and (max-width: 600px) {
+        font-size: 15px;
+    }
+
+    @media (min-width: 601px) and (max-width: 1024px) {
+        font-size: 30px;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1920px) {
+        font-size: 40px;
+    }
+}
+
+.pelotaGrande {
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    font-weight: bold;
+    font-size: 10px;
+    display: flex;
+    color: yellow;
+    padding: 10px;
+    text-decoration: underline;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 5px 1px 0 black;
+    color: rgb(202, 100, 16);
+    text-transform: uppercase;
+
+    @media (min-width: 320px) and (max-width: 600px) {
+        font-size: 25px;
+    }
+
+    @media (min-width: 601px) and (max-width: 1024px) {
+        font-size: 35px;
+    }
+
+    @media (min-width: 1025px) and (max-width: 1920px) {
+        font-size: 60px;
+    }
+}
+
+.subrayado {
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 5px 1px 0 black;
+    color: $colornaranja;
+}
+
+.tamañoTexto {
+    font-size: 30px;
+}
