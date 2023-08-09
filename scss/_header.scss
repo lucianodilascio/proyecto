@@ -13,8 +13,8 @@ header {
       padding-left: 4rem;
       text-transform: uppercase;
   
-      li {
-        a {
+      .nav-item {
+        .nav-link {
           margin-left: 3rem;
   
           &:hover {

@@ -13,10 +13,10 @@ header .fuentes {
   padding-left: 4rem;
   text-transform: uppercase;
 }
-header .fuentes li a {
+header .fuentes .nav-item .nav-link {
   margin-left: 3rem;
 }
-header .fuentes li a:hover {
+header .fuentes .nav-item .nav-link:hover {
   background-color: grey;
   color: white;
   border-radius: 10px;
@@ -29,84 +29,17 @@ footer .futer:hover {
   background-color: grey;
   border-radius: 50px;
 }
-footer .colorInstagram {
+footer .futer .colorInstagram {
   color: #dd2a7b;
 }
-footer .colorYoutube {
+footer .futer .colorYoutube {
   color: red;
 }
-footer .colorFacebook {
+footer .futer .colorFacebook {
   color: blue;
 }
 footer .ColorDerechos {
   color: white;
-}
-
-/* SECCION CONTACTO */
-.contactame {
-  text-align: center;
-  justify-content: center;
-  margin-top: 50px;
-  font-weight: bold;
-  font-size: 45px;
-  display: flex;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-  color: rgb(202, 100, 16);
-}
-
-.letraFuerte {
-  text-align: center;
-  justify-content: center;
-  margin-top: 50px;
-  font-weight: bold;
-  font-size: 30px;
-  display: flex;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-  color: rgb(202, 100, 16);
-}
-
-.letraFuerte1 {
-  text-align: center;
-  justify-content: center;
-  margin-top: 1px;
-  font-weight: bold;
-  font-size: 20px;
-  display: flex;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-  color: rgb(202, 100, 16);
-}
-
-.letraFuerte2 {
-  text-align: center;
-  justify-content: center;
-  font-weight: bold;
-  font-size: 30px;
-  display: flex;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-  color: rgb(202, 100, 16);
-}
-
-.inputGrande {
-  font-size: 18px;
-  padding: 10px;
-  width: 100%;
-  box-sizing: border-box;
-  height: 100px;
-}
-
-.fotoAtras {
-  background-image: url("../img/kobe-jumpshot.jpg");
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  height: 100vh;
-  opacity: 0.9;
-  margin-top: -50px;
-  margin-bottom: -25px;
-}
-
-.distancia {
-  margin-top: 100px;
 }
 
 /* SECCION CUENTA */
@@ -120,50 +53,100 @@ footer .ColorDerechos {
   margin-top: -50px;
   margin-bottom: -25px;
 }
-
-.rojoBoton {
-  background-color: red;
-  color: white;
-  border-color: black;
-}
-.rojoBoton:hover {
-  background-color: grey;
-  color: white;
-  border-color: black;
-}
-
-.containerRojo {
+.fotoBack .containerRojo {
   width: 100%;
   justify-content: center;
   text-align: center;
 }
 @media (min-width: 601px) and (max-width: 1024px) {
-  .containerRojo {
+  .fotoBack .containerRojo {
     max-width: 70%;
   }
 }
 @media (min-width: 1025px) and (max-width: 1920px) {
-  .containerRojo {
+  .fotoBack .containerRojo {
     max-width: 50%;
   }
 }
-
-.startSesion {
+.fotoBack .containerRojo .startSesion {
   margin-top: 200rem;
   padding: 10px;
 }
-
-.startSesion1 {
-  margin-top: 200rem;
-  padding: 10px;
+.fotoBack .containerRojo .startSesion .rojoBoton {
+  background-color: red;
+  color: white;
+  border-color: black;
 }
-
-.segundoForm {
-  margin-top: 150px;
+.fotoBack .containerRojo .startSesion .rojoBoton:hover {
+  background-color: grey;
+  color: white;
+  border-color: black;
 }
-
-.colorNaranja {
+.fotoBack .containerRojo .startSesion .colorNaranja {
   color: rgb(202, 100, 16);
+}
+.fotoBack .containerRojo .startSesion .letraFuerte1 {
+  text-align: center;
+  justify-content: center;
+  margin-top: 1px;
+  font-weight: bold;
+  font-size: 20px;
+  display: flex;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  color: rgb(202, 100, 16);
+}
+.fotoBack .containerRojo .startSesion .letraFuerte2 {
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  color: rgb(202, 100, 16);
+}
+.fotoBack .containerRojo .startSesion .letraFuerte {
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  color: rgb(202, 100, 16);
+}
+
+.fotoAtras {
+  background-image: url("../img/kobe-jumpshot.jpg");
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100vh;
+  opacity: 0.9;
+  margin-top: -50px;
+  margin-bottom: -25px;
+}
+.fotoAtras .contactame {
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 45px;
+  display: flex;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  color: rgb(202, 100, 16);
+}
+.fotoAtras .letraFuerte {
+  text-align: center;
+  justify-content: center;
+  margin-top: 50px;
+  font-weight: bold;
+  font-size: 30px;
+  display: flex;
+  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+  color: rgb(202, 100, 16);
+}
+.fotoAtras .distancia {
+  margin-top: 100px;
 }
 
 body {
@@ -243,13 +226,12 @@ body {
   font-size: 3rem;
 }
 
-.colorBoton {
-  background-color: red;
-  color: rgb(253, 253, 252);
-}
-
 .card {
   border: none;
+}
+.card .colorBoton {
+  background-color: red;
+  color: rgb(253, 253, 252);
 }
 
 /* SECCION SOBRE NOSOTROS */
@@ -261,8 +243,7 @@ body {
   margin-top: -50px;
   margin-bottom: -25px;
 }
-
-.pelota {
+.fotoLebron .pelota {
   text-align: center;
   justify-content: center;
   margin-top: 50px;
@@ -273,22 +254,21 @@ body {
   padding: 10px;
 }
 @media (min-width: 320px) and (max-width: 600px) {
-  .pelota {
+  .fotoLebron .pelota {
     font-size: 15px;
   }
 }
 @media (min-width: 601px) and (max-width: 1024px) {
-  .pelota {
+  .fotoLebron .pelota {
     font-size: 30px;
   }
 }
 @media (min-width: 1025px) and (max-width: 1920px) {
-  .pelota {
+  .fotoLebron .pelota {
     font-size: 40px;
   }
 }
-
-.pelotaGrande {
+.fotoLebron .pelotaGrande {
   text-align: center;
   justify-content: center;
   margin-top: 50px;
@@ -303,22 +283,21 @@ body {
   text-transform: uppercase;
 }
 @media (min-width: 320px) and (max-width: 600px) {
-  .pelotaGrande {
+  .fotoLebron .pelotaGrande {
     font-size: 25px;
   }
 }
 @media (min-width: 601px) and (max-width: 1024px) {
-  .pelotaGrande {
+  .fotoLebron .pelotaGrande {
     font-size: 35px;
   }
 }
 @media (min-width: 1025px) and (max-width: 1920px) {
-  .pelotaGrande {
+  .fotoLebron .pelotaGrande {
     font-size: 60px;
   }
 }
-
-.subrayado {
+.fotoLebron .subrayado {
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 5px 1px 0 black;
   color: rgb(202, 100, 16);
 }

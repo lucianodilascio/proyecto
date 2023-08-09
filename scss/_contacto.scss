@@ -1,0 +1,44 @@
+
+.fotoAtras {
+    background-image: url("../img/kobe-jumpshot.jpg");
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.9;
+    margin-top: -50px;
+    margin-bottom: -25px;
+    
+
+    .contactame {
+        text-align: center;
+        justify-content: center;
+        margin-top: 50px;
+        font-weight: bold;
+        font-size: 45px;
+        display: flex;
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+        color: rgb(202, 100, 16);
+    }
+    
+    .letraFuerte {
+        text-align: center;
+        justify-content: center;
+        margin-top: 50px;
+        font-weight: bold;
+        font-size: 30px;
+        display: flex;
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+        color: rgb(202, 100, 16);
+    }
+    
+    
+
+    .distancia {
+        margin-top: 100px;
+    }
+
+
+    
+}
+

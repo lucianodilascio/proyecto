@@ -1,7 +1,8 @@
 @import "variables";
 @import "header";
 @import "footer";
-@import "formulario";
+@import "cuenta";
+@import "contacto";
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap');
 
 body {
@@ -91,13 +92,16 @@ body {
     }
 }
 
-.colorBoton {
-    background-color: red;
-    color: $colorboton;
-}
+
 
 .card {
     border: none;
+
+    .colorBoton {
+        background-color: red;
+        color: $colorboton;
+    }
+
 }
 
 
@@ -112,62 +116,65 @@ body {
     opacity: 0.8;
     margin-top: -50px;
     margin-bottom: -25px;
+
+
+
+    .pelota {
+        text-align: center;
+        justify-content: center;
+        margin-top: 50px;
+        font-weight: bold;
+        font-size: 10px;
+        display: flex;
+        color: yellow;
+        padding: 10px;
+    
+        @media (min-width: 320px) and (max-width: 600px) {
+            font-size: 15px;
+        }
+    
+        @media (min-width: 601px) and (max-width: 1024px) {
+            font-size: 30px;
+        }
+    
+        @media (min-width: 1025px) and (max-width: 1920px) {
+            font-size: 40px;
+        }
+    }
+    
+    .pelotaGrande {
+        text-align: center;
+        justify-content: center;
+        margin-top: 50px;
+        font-weight: bold;
+        font-size: 10px;
+        display: flex;
+        color: yellow;
+        padding: 10px;
+        text-decoration: underline;
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 5px 1px 0 black;
+        color: rgb(202, 100, 16);
+        text-transform: uppercase;
+    
+        @media (min-width: 320px) and (max-width: 600px) {
+            font-size: 25px;
+        }
+    
+        @media (min-width: 601px) and (max-width: 1024px) {
+            font-size: 35px;
+        }
+    
+        @media (min-width: 1025px) and (max-width: 1920px) {
+            font-size: 60px;
+        }
+    }
+    
+    .subrayado {
+        text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 5px 1px 0 black;
+        color: $colornaranja;
+    }
 }
 
-.pelota {
-    text-align: center;
-    justify-content: center;
-    margin-top: 50px;
-    font-weight: bold;
-    font-size: 10px;
-    display: flex;
-    color: yellow;
-    padding: 10px;
-
-    @media (min-width: 320px) and (max-width: 600px) {
-        font-size: 15px;
-    }
-
-    @media (min-width: 601px) and (max-width: 1024px) {
-        font-size: 30px;
-    }
-
-    @media (min-width: 1025px) and (max-width: 1920px) {
-        font-size: 40px;
-    }
-}
-
-.pelotaGrande {
-    text-align: center;
-    justify-content: center;
-    margin-top: 50px;
-    font-weight: bold;
-    font-size: 10px;
-    display: flex;
-    color: yellow;
-    padding: 10px;
-    text-decoration: underline;
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 5px 1px 0 black;
-    color: rgb(202, 100, 16);
-    text-transform: uppercase;
-
-    @media (min-width: 320px) and (max-width: 600px) {
-        font-size: 25px;
-    }
-
-    @media (min-width: 601px) and (max-width: 1024px) {
-        font-size: 35px;
-    }
-
-    @media (min-width: 1025px) and (max-width: 1920px) {
-        font-size: 60px;
-    }
-}
-
-.subrayado {
-    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 5px 1px 0 black;
-    color: $colornaranja;
-}
 
 .tamañoTexto {
     font-size: 30px;
