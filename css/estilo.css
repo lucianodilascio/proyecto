@@ -12,13 +12,14 @@ header .fuentes {
   font-size: 1.5rem;
   padding-left: 4rem;
   text-transform: uppercase;
+  text-shadow: -3px 3px 2px rgb(0, 0, 0);
 }
 header .fuentes .nav-item .nav-link {
   margin-left: 3rem;
 }
 header .fuentes .nav-item .nav-link:hover {
-  background-color: grey;
-  color: white;
+  background-color: rgb(252, 128, 12);
+  color: rgb(255, 255, 255);
   border-radius: 10px;
 }
 header .navbar-toggler {
@@ -98,21 +99,19 @@ footer .ColorDerechos {
 .fotoBack .containerRojo .startSesion .letraFuerte2 {
   text-align: center;
   justify-content: center;
-  font-weight: bold;
   font-size: 30px;
   display: flex;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-  color: rgb(202, 100, 16);
+  margin-top: 30px;
 }
 .fotoBack .containerRojo .startSesion .letraFuerte {
   text-align: center;
   justify-content: center;
   margin-top: 50px;
-  font-weight: bold;
   font-size: 30px;
   display: flex;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-  color: rgb(202, 100, 16);
+}
+.fotoBack .containerRojo .startSesion .controlEspacio {
+  margin-top: 13px;
 }
 
 .fotoAtras {
@@ -126,27 +125,55 @@ footer .ColorDerechos {
   margin-bottom: -25px;
 }
 .fotoAtras .contactame {
-  text-align: center;
-  justify-content: center;
-  margin-top: 50px;
-  font-weight: bold;
-  font-size: 45px;
+  font-size: 50px;
   display: flex;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-  color: rgb(202, 100, 16);
+  text-shadow: -3px 3px 2px rgb(0, 0, 0);
+  color: rgb(67, 106, 158);
+  margin-top: 35px;
 }
-.fotoAtras .letraFuerte {
+.fotoAtras .letraDura {
+  display: flex;
   text-align: center;
   justify-content: center;
   margin-top: 50px;
   font-weight: bold;
   font-size: 30px;
-  display: flex;
   text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
   color: rgb(202, 100, 16);
 }
 .fotoAtras .distancia {
   margin-top: 100px;
+}
+.fotoAtras .botonRojo {
+  background-color: red;
+  color: white;
+  border-color: black;
+}
+.fotoAtras .botonRojo:hover {
+  background-color: grey;
+  color: white;
+  border-color: black;
+}
+.fotoAtras .naranja {
+  color: rgb(202, 100, 16);
+}
+
+.letraFuerte2 {
+  font-weight: bold;
+  text-shadow: -3px 3px 2px rgb(0, 0, 0);
+  color: rgb(67, 106, 158);
+}
+
+.letraFuerte {
+  font-weight: bold;
+  text-shadow: -3px 3px 2px rgb(0, 0, 0);
+  color: rgb(67, 106, 158);
+}
+
+.contactame {
+  text-align: center;
+  justify-content: center;
+  font-weight: bold;
 }
 
 body {
@@ -165,13 +192,14 @@ body {
   margin-bottom: -25px;
 }
 .canchaBasquet .basquet {
+  display: flex;
   text-align: center;
   justify-content: center;
   margin-top: 50px;
   font-weight: bold;
   font-size: 50px;
-  display: flex;
   color: rgb(202, 100, 16);
+  text-shadow: -3px 3px 2px rgb(0, 0, 0);
   padding: 10px;
 }
 .canchaBasquet .zapasIndex {
@@ -215,12 +243,12 @@ body {
 /* SECCION PRODUCTOS */
 .tituloZapatillas {
   background-color: rgb(168, 164, 164);
-  color: rgb(202, 100, 16);
+  color: rgb(67, 106, 158);
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
   padding: 1rem;
-  text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 5px 1px 0 black;
+  text-shadow: -3px 3px 2px rgb(0, 0, 0);
 }
 .tituloZapatillas h2 {
   font-size: 3rem;

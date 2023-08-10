@@ -60,22 +60,22 @@
             .letraFuerte2 {
                 text-align: center;
                 justify-content: center;
-                font-weight: bold;
-                font-size: 30px;
+                font-size: $fuenteTamaño;
                 display: flex;
-                text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-                color: rgb(202, 100, 16);
+                margin-top: 30px;
             }
 
             .letraFuerte {
                 text-align: center;
                 justify-content: center;
                 margin-top: 50px;
-                font-weight: bold;
-                font-size: 30px;
+                font-size: $fuenteTamaño;
                 display: flex;
-                text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
-                color: rgb(202, 100, 16);
+            }
+
+            .controlEspacio {
+                margin-top: 13px;
+
             }
 
         }
