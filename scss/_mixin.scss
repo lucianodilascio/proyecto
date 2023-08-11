@@ -26,7 +26,7 @@
 .letraFuerte {
 
     @include repeticion2;
-    
+
 }
 
 @mixin contact {
@@ -39,12 +39,6 @@
 
 .contactame {
 
-@include contact;
+    @include contact;
 
 }
-
-
-
-
-
-

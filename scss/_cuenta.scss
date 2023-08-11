@@ -36,9 +36,11 @@
                 border-color: black;
 
                 &:hover {
-                    background-color: grey;
+                    background-color: rgb(235, 112, 11);
                     color: white;
                     border-color: black;
+                    transition: all 0.5s;
+
                 }
             }
 

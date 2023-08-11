@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Queres registrarte para no perderte ninguna novedad? hazlo aqui y mantenete al tanto de los nuevos ingresos!!">
     <title>Cuenta - Basquetmanía</title>
     <link rel="shortcut icon" href="../img/BASQUETMANÍA-removebg-preview.png" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -14,38 +16,34 @@
 
 <body class="container-fluid">
 
-    <header class="navbar navbar-expand-lg sticky-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="../index.html">
-                <img class="logo" src="../img/BASQUETMANÍA-removebg-preview.png" alt="Logo de Basquetmania">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <nav class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav mx-auto fuentes">
-                    <li class="nav-item">
-                        <a class="nav-link active text-danger" aria-current="page" href="../index.html">inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="zapatillas.html">zapatillas</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="contacto.html">contacto</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="sobre-nosotros.html">nosotros</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="cuenta.html">cuenta</a>
-                    </li>
-
-                </ul>
-            </nav>
-        </div>
+    <header class="navbar navbar-expand-lg sticky-top container-fluid">
+        <a class="navbar-brand" href="../index.html">
+            <img class="logo" src="../img/BASQUETMANÍA-removebg-preview.png" alt="Logo de Basquetmania">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto fuentes">
+                <li class="nav-item">
+                    <a class="nav-link active text-danger" aria-current="page" href="../index.html">inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="zapatillas.html">zapatillas</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="contacto.html">contacto</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="sobre-nosotros.html">nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="cuenta.html">cuenta</a>
+                </li>
+            </ul>
+        </nav>
     </header>
-
 
 
 
@@ -57,17 +55,20 @@
             <div class="container containerRojo">
                 <div class="text-center mt-5 startSesion">
                     <form class="form-signin">
-                        <h2 class="h3 mb-3 font-weight-normal letraFuerte controlEspacio">INICIAR SESION</h2>
-                        <label for="inputEmail" class="sr-only letraFuerte1">Nombre de usuario / Correo
+                        <h2 data-aos="fade-left" class="h3 mb-3 font-weight-normal letraFuerte controlEspacio">INICIAR
+                            SESION</h2>
+                        <label data-aos="fade-left" for="inputEmail" class="sr-only letraFuerte1">Nombre de usuario /
+                            Correo
                             electronico*</label>
-                        <input type="email" id="inputEmail" class="form-control controlEspacio"
+                        <input data-aos="fade-left" type="email" id="inputEmail" class="form-control controlEspacio"
                             placeholder="Ingrese su usuario o correo electronico" required autofocus>
-                        <label for="inputPassword" class="sr-only letraFuerte1 controlEspacio">Contraseña*</label>
-                        <input type="password" id="inputPassword" class="form-control controlEspacio "
-                            placeholder="Ingrese su contraseña" required>
-                        <div class="checkbox mb-3">
-                            <label class="colorNaranja">
-                                <input type="checkbox" value="remember-me"> Recuerdame</label>
+                        <label data-aos="fade-left" for="inputPassword"
+                            class="sr-only letraFuerte1 controlEspacio">Contraseña*</label>
+                        <input data-aos="fade-left" type="password" id="inputPassword"
+                            class="form-control controlEspacio " placeholder="Ingrese su contraseña" required>
+                        <div data-aos="fade-left" class="checkbox mb-3">
+                            <label data-aos="fade-left" class="colorNaranja">
+                                <input data-aos="fade-left" type="checkbox" value="remember-me"> Recuerdame</label>
                         </div>
                         <button class="btn btn-lg btn-primary btn-block rojoBoton" type="submit">Iniciar sesión</button>
 
@@ -80,15 +81,17 @@
 
                 <div class="text-center mt-2 startSesion">
                     <form class="form-signin">
-                        <h2 class="h3 mb-3 font-weight-normal letraFuerte2">REGISTRARME</h2>
-                        <label for="inputEmail" class="sr-only letraFuerte1">DNI/CUIT/CUIL</label>
-                        <input type="email" id="inputEmail" class="form-control controlEspacio"
+                        <h2 data-aos="fade-right" class="h3 mb-3 font-weight-normal letraFuerte2">REGISTRARME</h2>
+                        <label data-aos="fade-right" for="inputEmail" class="sr-only letraFuerte1">DNI/CUIT/CUIL</label>
+                        <input data-aos="fade-right" type="email" id="inputEmail" class="form-control controlEspacio"
                             placeholder="Ingrese su DNI/CUIT/CUIL" required autofocus>
-                        <label for="inputPassword" class="sr-only letraFuerte1 controlEspacio">Contraseña*</label>
-                        <input type="password" id="inputPassword" class="form-control controlEspacio "
-                            placeholder="Ingrese su contraseña" required>
-                        <div class="checkbox mb-3">
-                            <label for="inputEmail" class="sr-only letraFuerte1 controlEspacio">Nombre de usuario /
+                        <label data-aos="fade-right" for="inputPassword"
+                            class="sr-only letraFuerte1 controlEspacio">Contraseña*</label>
+                        <input data-aos="fade-right" type="password" id="inputPassword"
+                            class="form-control controlEspacio " placeholder="Ingrese su contraseña" required>
+                        <div data-aos="fade-right" class="checkbox mb-3">
+                            <label data-aos="fade-right" for="inputEmail"
+                                class="sr-only letraFuerte1 controlEspacio">Nombre de usuario /
                                 Correo
                                 electronico*</label>
                             <input type="email" id="inputEmail" class="form-control controlEspacio"
