@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* SECCION VARIABLES */
 @import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&display=swap");
 
 header {
@@ -29,9 +30,11 @@ header .fuentes .nav-item .nav-link:hover {
 }
 
 header .navbar-toggler {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
+  margin: 20px;
 }
 
+/* SECCION FOOTER */
 footer .futer:hover {
   background-color: grey;
   border-radius: 50px;
@@ -137,6 +140,7 @@ footer .ColorDerechos {
   margin-top: 13px;
 }
 
+/* SECCION CONTACTO */
 .fotoAtras {
   background-image: url("../img/kobe-jumpshot.jpg");
   background-size: cover;
@@ -188,6 +192,7 @@ footer .ColorDerechos {
   color: rgb(202, 100, 16);
 }
 
+/* SECCION MIXIN */
 .letraFuerte2 {
   font-weight: bold;
   text-shadow: -3px 3px 2px rgb(0, 0, 0);
